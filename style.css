@@ -1,0 +1,110 @@
+@font-face {
+    font-family: wizard;
+    src: url(BlackWizard_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: digital;
+    src: url(DIGITEK.TTF);
+}
+#complete-board{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    border: 3px dotted #451952;
+}
+
+#pomodoro-timer{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #AE445A;
+    padding: 30px;
+    column-gap: 10px;
+}
+
+#time-box-01{
+    font-family: digital;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #F39F5A;
+
+    /* border: 2px solid #451952; */
+    
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    height: fit-content;
+    width: 150px;
+
+    padding-bottom: 10px;
+}
+
+#time-box-02{
+    font-family: digital;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #F39F5A;
+
+    /* border: 2px solid black; */
+
+    grid-row-start: 2;
+    grid-column-start: 3;
+
+    height: fit-content;
+    width: 150px;
+    
+    padding-bottom: 10px;
+}
+
+#minutes{
+    text-align: center;
+}
+
+#seconds{
+    text-align: center;
+}
+
+#buttons{
+    margin-top: 10%;
+    grid-column-start: 3;
+    grid-row-start: 3;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 30px;
+
+    text-align: center;
+}
+
+#buttons>#start{
+    height: fit-content;
+    width: fit-content;
+
+    background-color: #451952;
+    grid-column-start: 2;
+
+    border: none;
+    font-family: wizard;
+    font-weight: bolder;
+    font-size: 4cqw;
+    color: #F39F5A;
+
+    padding: 5px 10px;
+}
+
+#buttons>#stop{
+    height: fit-content;
+    width: fit-content;
+
+    background-color: #451952;
+    grid-column-start: 3;
+
+    border: none;
+    font-family: wizard;
+    font-weight: bolder;
+    font-size: 4cqw;
+    color: #F39F5A;
+
+    padding: 5px 10px;
+}
