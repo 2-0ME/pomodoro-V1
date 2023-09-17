@@ -1,12 +1,14 @@
 @font-face {
     font-family: wizard;
-    src: url(BlackWizard_PERSONAL_USE_ONLY.otf);
+    src: url(/fonts/BlackWizard_PERSONAL_USE_ONLY.otf);
 }
 
 @font-face {
     font-family: digital;
-    src: url(DIGITEK.TTF);
+    src: url(/fonts/DIGITEK.TTF);
 }
+
+
 #complete-board{
     display: grid;
     grid-template-columns: auto auto auto;
